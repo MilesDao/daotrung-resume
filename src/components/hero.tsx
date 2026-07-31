@@ -116,7 +116,7 @@ export function Hero() {
           className="flex flex-wrap items-center justify-center gap-4 pt-8 w-full"
         >
           <a
-            href="mailto:trungdao131105@gmail.com"
+            href="#contact"
             data-interactive
             className="inline-flex items-center justify-center gap-2 rounded-full bg-zinc-900 dark:bg-white px-6 py-3 text-sm font-medium text-white dark:text-zinc-900 transition-all hover:scale-105"
           >

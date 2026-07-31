@@ -74,7 +74,7 @@ export function ParticlesBackground() {
       constructor() {
         this.x = Math.random() * canvas!.width;
         this.y = Math.random() * canvas!.height;
-        this.size = Math.random() * 3 + 2; // Made particles slightly bigger
+        this.size = Math.random() * 2 + 1.5; // Slightly smaller
         this.speedX = (Math.random() * 1) - 0.5;
         this.speedY = (Math.random() * 1) - 0.5;
         this.isDragged = false;
