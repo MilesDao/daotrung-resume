@@ -61,14 +61,14 @@ export function Contact() {
           <motion.div 
             variants={itemVariants}
             whileHover={{ y: -10, transition: { duration: 0.2 } }}
-            className="flex flex-col items-center gap-6 p-8 rounded-3xl border border-border/50 bg-card/40 backdrop-blur-md shadow-xl hover:shadow-2xl transition-all"
+            className="flex flex-col items-center gap-6 p-8 rounded-3xl border border-border/50 bg-card/40 backdrop-blur-md shadow-xl hover:shadow-2xl hover:border-primary/50 transition-all group"
           >
-            <div className="p-5 rounded-2xl bg-primary/10 text-primary">
+            <div className="p-5 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 group-hover:bg-primary group-hover:text-white transition-all duration-300">
               <MapPin className="w-8 h-8" />
             </div>
             <div className="text-center">
               <p className="text-sm font-semibold text-muted-foreground mb-2 uppercase tracking-wider">Location</p>
-              <p className="text-base font-bold text-foreground">
+              <p className="text-base font-bold text-foreground group-hover:text-primary transition-colors">
                 Ha Noi, Viet Nam
               </p>
             </div>
