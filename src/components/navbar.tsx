@@ -21,10 +21,10 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           <a href="#" className="text-xl font-bold tracking-tight">
-            Dao Chi Trung
+            Dao Trung
           </a>
         </div>
-        
+
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-6">
           {NAV_LINKS.map((link) => (

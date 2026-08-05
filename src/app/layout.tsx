@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Dao Chi Trung",
-  description: "Portfolio and Resume of Dao Chi Trung",
+  description: "Portfolio and Resume of Dao Trung",
 };
 
 export default function RootLayout({
